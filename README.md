@@ -27,9 +27,9 @@ npm run dev
 
 ## 📚 Aprendizados
 
--Consumo de API no front-end
--Manipulação de dados para gráficos em Chart.js
--Organização de componentes em React
+- Consumo de API no front-end
+- Manipulação de dados para gráficos em Chart.js
+- Organização de componentes em React
 
 ## 👨‍💻 Autor
 
