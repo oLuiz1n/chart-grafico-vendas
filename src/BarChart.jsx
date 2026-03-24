@@ -52,7 +52,7 @@ useEffect(() => {
                 const data = new Date(v.data);
                 const m = data.getMonth() + 1;
                 const a = data.getFullYear();
-                const d = data.getDate();
+                const d = data.getUTCDate();
                 let key;
 
                 if(verPorDia) {
