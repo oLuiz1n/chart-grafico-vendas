@@ -4,39 +4,6 @@ import { Chart as ChartJS, LinearScale, BarElement, CategoryScale, Title, Toolti
 
 ChartJS.register(LinearScale, BarElement, CategoryScale, Title, Tooltip, Legend);
 
-// const arrVendasMensais = [
-//   {
-//     "_id": "69bb61c05cd569df92039b46",
-//     "mes": 1,
-//     "valorVendido": 12123,
-//     "__v": 0
-//   },
-//   {
-//     "_id": "69bb61ca5cd569df92039b48",
-//     "mes": 2,
-//     "valorVendido": 52344,
-//     "__v": 0
-//   },
-//   {
-//     "_id": "69bb61d05cd569df92039b4a",
-//     "mes": 3,
-//     "valorVendido": 55234,
-//     "__v": 0
-//   },
-//   {
-//     "_id": "69bb61d65cd569df92039b4c",
-//     "mes": 4,
-//     "valorVendido": 23423,
-//     "__v": 0
-//   },
-//   {
-//     "_id": "69bb61de5cd569df92039b4e",
-//     "mes": 5,
-//     "valorVendido": 23312,
-//     "__v": 0
-//   }
-// ];
-
 
 const BarChart = () => {
     const [arrVendasMensais, setArrVendasMensais] = useState([]);
@@ -130,14 +97,6 @@ const data = {
     ],
 };
 
-// const chartOptions = {
-
-//     scales: {
-//         y: {
-//             beginAtZero: true,
-//         },
-//     },
-// };
 
 return (
 
