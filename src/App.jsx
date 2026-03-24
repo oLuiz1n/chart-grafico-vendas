@@ -2,10 +2,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import BarChart from "./BarChart";
 import Home from "./Home";
 
-// function Home() {
-//   return <h1>Home</h1>
-// }
-
 function App() {
   return (
     <BrowserRouter>
